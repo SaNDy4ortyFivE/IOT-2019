@@ -43,7 +43,7 @@ void loop() {
   msg.trim();
   Serial.println(msg);
   if(msg!=""){
-    bt.println(msg);
+    bt.print(msg);
   }
   delay(1000);
 }
